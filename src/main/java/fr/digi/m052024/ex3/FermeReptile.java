@@ -1,7 +1,7 @@
-package ex3;
+package fr.digi.m052024.ex3;
 import java.util.List;
 
-public class SavaneAfricaine {
+public class FermeReptile {
 
 	private List<String> types;
 	private List<String> noms;
@@ -23,7 +23,7 @@ public class SavaneAfricaine {
 		return noms.size();
 	}
 	
-	public int calculerKgsNourritureParJour(){
-		return noms.size() * 10;
+	public double calculerKgsNourritureParJour(){
+		return noms.size() * 0.1;
 	}
 }

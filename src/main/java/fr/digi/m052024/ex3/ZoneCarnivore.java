@@ -1,7 +1,7 @@
-package ex3;
+package fr.digi.m052024.ex3;
 import java.util.List;
 
-public class Aquarium {
+public class ZoneCarnivore {
 
 	private List<String> types;
 	private List<String> noms;
@@ -20,6 +20,6 @@ public class Aquarium {
 	}
 	
 	public double calculerKgsNourritureParJour(){
-		return noms.size() * 0.2;
+		return noms.size() * 10;
 	}
 }

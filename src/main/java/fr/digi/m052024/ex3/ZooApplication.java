@@ -1,9 +1,10 @@
-package ex3;
+package fr.digi.m052024.ex3;
 public class ZooApplication {
 
 	public static void main(String[] args) {
 		Zoo zoo = new Zoo("Thoiry");
-		
+		//SavaneAfricaine savaneAfricaine = new SavaneAfricaine();
+
 		zoo.addAnimal("Gazelle", "MAMMIFERE", "HERBIVORE");
 		zoo.addAnimal("Zèbre", "MAMIFERE", "HERBIVORE");
 		zoo.addAnimal("Lion", "MAMMIFERE", "HERBIVORE");
