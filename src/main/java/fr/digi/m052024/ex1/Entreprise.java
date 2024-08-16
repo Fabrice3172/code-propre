@@ -43,7 +43,7 @@ public class Entreprise {
     }
 
     /**
-     * Affichage de l'Entreprise
+     * Affichage du statut de l'Entreprise
      */
     public void afficherStatut() {
         this.toString();
